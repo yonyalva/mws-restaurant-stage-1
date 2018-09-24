@@ -1,0 +1,48 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 800px) {
+.filter-options select {
+  width: 200px;
+  padding: 0 10px;
+  font-size: 11pt;
+}
+
+#map {
+  height: 400px;
+}
+
+.inside #map-container {
+  height: 90%;
+  position: fixed;
+  right:0;
+  width: 50%;
+}
+
+
+#breadcrumb {
+ width: calc(100% - 80px);
+}
+
+#restaurant-container {
+  width: 50%;
+  padding-left: 1em;
+}
+
+#reviews-container {
+  width: 42%;
+  padding-right:0;
+}
+
+#restaurant-img {
+ width: 95%;
+}
+
+#restaurant-cuisine {
+ width: 95%;
+}
+
+}
+
