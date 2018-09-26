@@ -15,7 +15,7 @@
 }
 
 .inside #map-container {
-  height: 90%;
+  height: 75%;
   position: fixed;
   right:0;
   width: 50%;
