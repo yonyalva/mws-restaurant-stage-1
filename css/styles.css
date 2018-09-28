@@ -188,7 +188,7 @@ nav h1 a {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1;
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
@@ -277,4 +277,19 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+/* ====================== Skip Link ====================== */
+.skip-link {
+	position: absolute;
+	top: -40px;
+	left: 0;
+	background: #BF1722;
+	color: white:
+	padding: 8px;
+	z-index: 2; 
+}
+
+.skip-link:focus {
+	top: 0;
 }
